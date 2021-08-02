@@ -22,7 +22,7 @@ PQRS 4
 
 When ordered alphabetically, the <b>CITY</b> names are listed as <b>ABC, DEF, PQRS, and WXY,</b> with lengths 3, 3, 4 and 3. The longest name is <b>PQRS,</b> but there are 3 options for shortest named city. Choose <b>ABC,</b> because it comes first alphabetically.
 
-<b>Note</b>
+<b>Note</b><br>
 You can write two separate queries to get the desired output. It need not be a single query.
 
 
