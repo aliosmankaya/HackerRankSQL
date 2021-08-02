@@ -27,7 +27,7 @@ You can write two separate queries to get the desired output. It need not be a s
 
 
 ## Solution
-'''sql
+---sql
 SELECT CITY, LENGTH(CITY) FROM STATION<br>
 WHERE LENGTH(CITY) =                  <br>
 (                                     <br>
@@ -43,4 +43,4 @@ SELECT MAX(LENGTH(CITY)) FROM STATION <br>
 )                                     <br>
 ORDER BY CITY                         <br>
 LIMIT 1;                              <br>
-'''
+---
