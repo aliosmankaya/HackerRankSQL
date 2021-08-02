@@ -28,19 +28,19 @@ You can write two separate queries to get the desired output. It need not be a s
 
 ## Solution
 ```sql
-SELECT CITY, LENGTH(CITY) FROM STATION<br>
-WHERE LENGTH(CITY) =                  <br>
-(                                     <br>
-SELECT MIN(LENGTH(CITY)) FROM STATION <br>
-)                                     <br>
-ORDER BY CITY                         <br>
-LIMIT 1;                              <br>
-                                      <br>
-SELECT CITY, LENGTH(CITY) FROM STATION<br>
-WHERE LENGTH(CITY) =                  <br>
-(                                     <br>
-SELECT MAX(LENGTH(CITY)) FROM STATION <br>
-)                                     <br>
-ORDER BY CITY                         <br>
-LIMIT 1;                              <br>
+SELECT CITY, LENGTH(CITY) FROM STATION
+WHERE LENGTH(CITY) =                  
+(                                     
+SELECT MIN(LENGTH(CITY)) FROM STATION 
+)                                     
+ORDER BY CITY                         
+LIMIT 1;                              
+                                      
+SELECT CITY, LENGTH(CITY) FROM STATION
+WHERE LENGTH(CITY) =                  
+(                                     
+SELECT MAX(LENGTH(CITY)) FROM STATION 
+)                                     
+ORDER BY CITY                         
+LIMIT 1;                              
 ```
